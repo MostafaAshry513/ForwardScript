@@ -1,0 +1,54 @@
+{
+  "name": "",
+  "description": "",
+  "keywords": [],
+  "env": {
+      "FROM_ID": {
+      "description": "The Chat ID You Want To Forward From",
+      "required": true,
+      "value": ""
+    },
+      "TO_ID": {
+      "description": "The Chat ID You Want To Forward To",
+      "required": true,
+      "value": ""
+    },
+      "SESSION": {
+      "description": "Your Session String",
+      "required": true,
+      "value": ""
+    },
+      "REVERSED": {
+      "description": "Revers The Messages, Usage: (True, False)",
+      "required": true,
+      "value": "True"
+    },
+      "LIMIT": {
+      "description": "The Messages Limit You Want To Forward, 0 To Forwrad All The Chat Messages",
+      "required": true,
+      "value": ""
+    },
+     "API_ID": {
+      "description": "Your API ID",
+      "required": true,
+      "value": "17058698"
+    },
+    "API_HASH": {
+      "description": "Your API HASH",
+      "required": true,
+      "value": "088f8d5bf0b4b5c0536b039bb6bdf1d2"
+    },
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  }
+}
