@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "description": "",
-  "keywords": [],
+  "name": "ForwardScript",
+  "description": "This is a Simple Python Script That can Forwrad Messages, Photos and Videos From Any Chat (including private chats and saved content) To Another Chat",
+  "keywords": ["telegram","python","pyrogram"],
   "env": {
       "FROM_ID": {
       "description": "The Chat ID You Want To Forward From",
@@ -37,7 +37,7 @@
       "description": "Your API HASH",
       "required": true,
       "value": "088f8d5bf0b4b5c0536b039bb6bdf1d2"
-    },
+    }
   },
   "addons": [],
   "buildpacks": [
