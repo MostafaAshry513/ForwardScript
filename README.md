@@ -14,7 +14,7 @@
 
 
 
-<b>1 - Update the package :</b> <code>sudo apt update && sudo apt upgrade</code>
+<b>1 - Update the packages :</b> <code>sudo apt update && sudo apt upgrade</code>
 
 
 
@@ -38,13 +38,13 @@
 
     - Go to config.py [nano config.py]
 
-    - Enter the values between double equotes
+    - Enter the values between double quotes
 
 </b>
 
 
 
-<b>7 - Run the file :</b> <code>screen -S forward python3 main.py</code>
+<b>7 - Run the file :</b> <code>screen -S "forward" python3 main.py</code>
 
 
 
