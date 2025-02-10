@@ -22,7 +22,7 @@ async def main():
 			msg_list = list(reversed(msg_list))
 
 		if START_MESSAGE != "0":
-			del msg_list[:int(START_MESSAGE)]
+			msg_list = [msg for msg in msg_list if msg.id >= int(START_MESSAGE)]
 
 		print(len(msg_list))
 		print(START_MESSAGE, type(START_MESSAGE))
