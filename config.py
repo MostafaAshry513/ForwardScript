@@ -12,8 +12,11 @@ SESSION = os.getenv("SESSION", "Your Session String")
 #Revers The Messages
 REVERSED = os.getenv("REVERSED", "True").lower() == "true"
 
+#The Message Number You Want To Start Forwarding From, 0 To Forwrad All The Chat Messages
+START_MESSAGE = int(os.getenv("START_MESSAGE", "0"))
+
 #The Messages Limit You Want To Forward, 0 To Forwrad All The Chat Messages
-LIMIT = int(os.getenv("LIMIT", "Limit Yiu Want"))
+LIMIT = int(os.getenv("LIMIT", "Limit You Want"))
 
 # You Can Get API ID And API HASH From: https://core.telegram.org/api/obtaining_api_id
 
